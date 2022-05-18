@@ -59,7 +59,17 @@ nav ul {
 }
 
 /* All Post's Author's Links Bold and Blue, with no Underline */
+/* [href*="shadow"],
+[href*="whiskers"],
+[href*="patches"] {
+   font-weight: bold;
+   color: blue;
+   text-decoration: none;
+} */
 
+article::after {
+   content:"By"
+}
 
 /* Article Paragraph Text should have line height of 200% */
 
